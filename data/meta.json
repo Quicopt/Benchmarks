@@ -14,20 +14,22 @@
     "objective_sense": "min",
     "order": 1,
     "page": "labs",
+    "reference_label": "best-known",
     "section": "Quicopt v0.1",
-    "section_blurb": "Per row: `energy` is the best over a batch of 100 single-core seeds run in parallel on 100 cores, and `wall_time_s` is that batch's wall-clock (\u2248 the slowest seed).",
+    "section_blurb": "Per row: `energy` is the best over a batch of 100 single-core seeds run in parallel on 100 cores, and `wall_time_s` is that batch's measured wall-clock (\u2248 the slowest seed).",
     "title": "LABS \u2014 Low-Autocorrelation Binary Sequences"
   },
   "labs-v0.2": {
-    "blurb": "Low-Autocorrelation Binary Sequences: find a \u00b11 sequence of length N minimizing the off-peak autocorrelation energy E = sum_k C_k^2. Quality is read as the merit factor F = N^2 / (2E) (higher is better). At these sizes the proven optimum exists only for N \u2264 66 and the whole field sits well above it, so no reference/gap column is shown here \u2014 the head-to-head against Gurobi and ABS2 lives on the website. Two solver versions are reported below, newest first, over the same instances; on the 97 lengths both cover, v0.2 reaches a lower energy at 81 and ties the other 16.",
-    "headline": "median merit factor F \u2248 7.9 across N=2\u2013100",
+    "blurb": "Low-Autocorrelation Binary Sequences: find a \u00b11 sequence of length N minimizing the off-peak autocorrelation energy E = sum_k C_k^2. Quality is read as the merit factor F = N^2 / (2E) (higher is better), and `%_of_best` is the ratio of merit factors \u2014 100 means the reference was matched. For N \u2264 66 the reference is the *proven* optimum (Packebusch & Mertens, [arXiv:1512.02475](https://arxiv.org/abs/1512.02475)) and `source` reads `optimum`; above 66 no optimum is known and the reference is the best heuristic record we are aware of \u2014 Knauer's 2004 table, superseded at N=92, 98 and 99 by the GPU memetic-tabu results of Zhang et al. ([arXiv:2504.00987](https://arxiv.org/abs/2504.00987), v2). Those are third-party attributions, not Quicopt output, and the ones above N=66 move as new records are published. Two solver versions are reported below, newest first; on the 97 lengths both cover, v0.2 reaches a lower energy at 81 and ties the other 16.",
+    "headline": "65/65 proven optima reached; median 100% of best-known across N=2\u2013100",
     "n_instances": 99,
     "objective_label": "sidelobe energy",
     "objective_sense": "min",
     "order": 0,
     "page": "labs",
+    "reference_label": "best-known",
     "section": "Quicopt v0.2",
-    "section_blurb": "Per row: `runs` independent runs were made and the best is reported. `cpu_time_s` is that batch's total CPU time and `wall_time_s` its measured wall-clock on the cores named in `hardware`; the two are equal where the runs were taken one at a time on a single core. Both columns cost the whole batch, so divide by `runs` to compare against a benchmark that reports per-run averages \u2014 the runs overlapped in time, so only `cpu_time_s` divides cleanly. Solution certificates (the best sequence per instance) are in [`../LABS/solutions/`](../LABS/solutions/); recompute and check them with [`../LABS/notebooks/verify_solutions.ipynb`](../LABS/notebooks/verify_solutions.ipynb) \u2014 a LABS instance is just its length, so that notebook needs no instance data and runs offline.",
+    "section_blurb": "Per row: `runs` independent runs were made and the best is reported. `cpu_time_s` is that batch's total measured CPU time, and `wall_time_s` is the same batch spread over 100 cores \u2014 `cpu_time_s`/100 \u2014 so that it reads on the same basis as the v0.1 table below. The runs did not actually occupy 100 cores, so treat that column as a projection at perfect parallel efficiency and `cpu_time_s` as the measurement. Both columns cost the whole batch, so divide `cpu_time_s` by `runs` for the per-run average that benchmark submissions usually report. Solution certificates (the best sequence per instance) are in [`../LABS/solutions/`](../LABS/solutions/); recompute and check them with [`../LABS/notebooks/verify_solutions.ipynb`](../LABS/notebooks/verify_solutions.ipynb) \u2014 a LABS instance is just its length, so that notebook needs no instance data and runs offline.",
     "title": "LABS \u2014 Low-Autocorrelation Binary Sequences"
   },
   "mis-cpu": {
