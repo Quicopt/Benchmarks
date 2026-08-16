@@ -4,7 +4,7 @@ Low-Autocorrelation Binary Sequences: find a ±1 sequence of length N minimizing
 
 ### Quicopt v0.2
 
-Per row: `runs` independent runs were made and the best is reported. `cpu_time_s` is that batch's total CPU time and `wall_time_s` its measured wall-clock on the cores named in `hardware`; the two are equal where the runs were taken one at a time on a single core.
+Per row: `runs` independent runs were made and the best is reported. `cpu_time_s` is that batch's total CPU time and `wall_time_s` its measured wall-clock on the cores named in `hardware`; the two are equal where the runs were taken one at a time on a single core. Solution certificates (the best sequence per instance) are in [`../LABS/solutions/`](../LABS/solutions/); recompute and check them with [`../LABS/notebooks/verify_solutions.ipynb`](../LABS/notebooks/verify_solutions.ipynb) — a LABS instance is just its length, so that notebook needs no instance data and runs offline.
 
 | instance | N | energy | merit_factor | runs | wall_time_s | cpu_time_s | hardware | solver |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
