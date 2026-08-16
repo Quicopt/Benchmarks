@@ -8,11 +8,26 @@
     "title": "Gset \u2014 Maximum Cut"
   },
   "labs": {
-    "blurb": "Low-Autocorrelation Binary Sequences: find a \u00b11 sequence of length N minimizing the off-peak autocorrelation energy E = sum_k C_k^2. Quality is read as the merit factor F = N^2 / (2E) (higher is better). At these sizes the proven optimum exists only for N \u2264 66 and the whole field sits well above it, so no reference/gap column is shown here \u2014 the head-to-head against Gurobi and ABS2 lives on the website. Per row: `energy` is the best over a batch of 100 single-core seeds run in parallel on 100 cores, and `wall_time_s` is that batch's wall-clock (\u2248 the slowest seed).",
     "headline": "median merit factor F \u2248 5 across N=4\u2013100",
     "n_instances": 97,
     "objective_label": "sidelobe energy",
     "objective_sense": "min",
+    "order": 1,
+    "page": "labs",
+    "section": "Quicopt v0.1",
+    "section_blurb": "Per row: `energy` is the best over a batch of 100 single-core seeds run in parallel on 100 cores, and `wall_time_s` is that batch's wall-clock (\u2248 the slowest seed).",
+    "title": "LABS \u2014 Low-Autocorrelation Binary Sequences"
+  },
+  "labs-v0.2": {
+    "blurb": "Low-Autocorrelation Binary Sequences: find a \u00b11 sequence of length N minimizing the off-peak autocorrelation energy E = sum_k C_k^2. Quality is read as the merit factor F = N^2 / (2E) (higher is better). At these sizes the proven optimum exists only for N \u2264 66 and the whole field sits well above it, so no reference/gap column is shown here \u2014 the head-to-head against Gurobi and ABS2 lives on the website. Two solver versions are reported below, newest first, over the same instances; on the 97 lengths both cover, v0.2 reaches a lower energy at 81 and ties the other 16.",
+    "headline": "median merit factor F \u2248 7.9 across N=2\u2013100",
+    "n_instances": 99,
+    "objective_label": "sidelobe energy",
+    "objective_sense": "min",
+    "order": 0,
+    "page": "labs",
+    "section": "Quicopt v0.2",
+    "section_blurb": "Per row: `runs` independent runs were made and the best is reported. `cpu_time_s` is that batch's total CPU time and `wall_time_s` its measured wall-clock on the cores named in `hardware`; the two are equal where the runs were taken one at a time on a single core. Solution certificates (the best sequence per instance) are in [`../LABS/solutions/`](../LABS/solutions/); recompute and check them with [`../LABS/notebooks/verify_solutions.ipynb`](../LABS/notebooks/verify_solutions.ipynb) \u2014 a LABS instance is just its length, so that notebook needs no instance data and runs offline.",
     "title": "LABS \u2014 Low-Autocorrelation Binary Sequences"
   },
   "mis-cpu": {
@@ -20,6 +35,8 @@
     "n_instances": 50,
     "objective_label": "set size",
     "objective_sense": "max",
+    "order": 1,
+    "page": "mis",
     "reference_label": "best-known",
     "title": "Maximum Independent Set"
   },
@@ -28,6 +45,8 @@
     "n_instances": 50,
     "objective_label": "set size",
     "objective_sense": "max",
+    "order": 0,
+    "page": "mis",
     "reference_label": "best-known",
     "title": "Maximum Independent Set"
   }
