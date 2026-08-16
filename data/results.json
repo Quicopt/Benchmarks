@@ -5494,5 +5494,1886 @@
     "hardware": "NVIDIA A100 80GB PCIe",
     "solver": "Quicopt v0.1",
     "pct_of_best": 91.91919191919192
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-2",
+    "size": {
+      "N": 2
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 1.0,
+      "sense": "min"
+    },
+    "merit_factor": 2.0,
+    "reference": null,
+    "wall_time_s": 0.01,
+    "cpu_time_s": 0.01,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 100
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-3",
+    "size": {
+      "N": 3
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 1.0,
+      "sense": "min"
+    },
+    "merit_factor": 4.5,
+    "reference": null,
+    "wall_time_s": 0.08,
+    "cpu_time_s": 0.08,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 100
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-4",
+    "size": {
+      "N": 4
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 2.0,
+      "sense": "min"
+    },
+    "merit_factor": 4.0,
+    "reference": null,
+    "wall_time_s": 0.01,
+    "cpu_time_s": 0.01,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 100
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-5",
+    "size": {
+      "N": 5
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 2.0,
+      "sense": "min"
+    },
+    "merit_factor": 6.25,
+    "reference": null,
+    "wall_time_s": 0.01,
+    "cpu_time_s": 0.01,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 100
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-6",
+    "size": {
+      "N": 6
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 7.0,
+      "sense": "min"
+    },
+    "merit_factor": 2.57,
+    "reference": null,
+    "wall_time_s": 0.01,
+    "cpu_time_s": 0.01,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 100
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-7",
+    "size": {
+      "N": 7
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 3.0,
+      "sense": "min"
+    },
+    "merit_factor": 8.17,
+    "reference": null,
+    "wall_time_s": 0.01,
+    "cpu_time_s": 0.01,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 100
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-8",
+    "size": {
+      "N": 8
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 8.0,
+      "sense": "min"
+    },
+    "merit_factor": 4.0,
+    "reference": null,
+    "wall_time_s": 0.01,
+    "cpu_time_s": 0.01,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 100
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-9",
+    "size": {
+      "N": 9
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 12.0,
+      "sense": "min"
+    },
+    "merit_factor": 3.38,
+    "reference": null,
+    "wall_time_s": 0.01,
+    "cpu_time_s": 0.01,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 100
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-10",
+    "size": {
+      "N": 10
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 13.0,
+      "sense": "min"
+    },
+    "merit_factor": 3.85,
+    "reference": null,
+    "wall_time_s": 0.02,
+    "cpu_time_s": 0.02,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 100
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-11",
+    "size": {
+      "N": 11
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 5.0,
+      "sense": "min"
+    },
+    "merit_factor": 12.1,
+    "reference": null,
+    "wall_time_s": 0.02,
+    "cpu_time_s": 0.02,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 100
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-12",
+    "size": {
+      "N": 12
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 10.0,
+      "sense": "min"
+    },
+    "merit_factor": 7.2,
+    "reference": null,
+    "wall_time_s": 0.01,
+    "cpu_time_s": 0.01,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 100
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-13",
+    "size": {
+      "N": 13
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 6.0,
+      "sense": "min"
+    },
+    "merit_factor": 14.08,
+    "reference": null,
+    "wall_time_s": 0.02,
+    "cpu_time_s": 0.02,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 100
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-14",
+    "size": {
+      "N": 14
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 19.0,
+      "sense": "min"
+    },
+    "merit_factor": 5.16,
+    "reference": null,
+    "wall_time_s": 0.02,
+    "cpu_time_s": 0.02,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 100
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-15",
+    "size": {
+      "N": 15
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 15.0,
+      "sense": "min"
+    },
+    "merit_factor": 7.5,
+    "reference": null,
+    "wall_time_s": 0.02,
+    "cpu_time_s": 0.02,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 100
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-16",
+    "size": {
+      "N": 16
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 24.0,
+      "sense": "min"
+    },
+    "merit_factor": 5.33,
+    "reference": null,
+    "wall_time_s": 0.02,
+    "cpu_time_s": 0.02,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 100
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-17",
+    "size": {
+      "N": 17
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 32.0,
+      "sense": "min"
+    },
+    "merit_factor": 4.52,
+    "reference": null,
+    "wall_time_s": 0.02,
+    "cpu_time_s": 0.02,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 100
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-18",
+    "size": {
+      "N": 18
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 25.0,
+      "sense": "min"
+    },
+    "merit_factor": 6.48,
+    "reference": null,
+    "wall_time_s": 0.02,
+    "cpu_time_s": 0.02,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 100
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-19",
+    "size": {
+      "N": 19
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 29.0,
+      "sense": "min"
+    },
+    "merit_factor": 6.22,
+    "reference": null,
+    "wall_time_s": 0.02,
+    "cpu_time_s": 0.02,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 100
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-20",
+    "size": {
+      "N": 20
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 26.0,
+      "sense": "min"
+    },
+    "merit_factor": 7.69,
+    "reference": null,
+    "wall_time_s": 0.02,
+    "cpu_time_s": 0.02,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 100
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-21",
+    "size": {
+      "N": 21
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 26.0,
+      "sense": "min"
+    },
+    "merit_factor": 8.48,
+    "reference": null,
+    "wall_time_s": 0.03,
+    "cpu_time_s": 0.03,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 100
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-22",
+    "size": {
+      "N": 22
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 39.0,
+      "sense": "min"
+    },
+    "merit_factor": 6.21,
+    "reference": null,
+    "wall_time_s": 0.03,
+    "cpu_time_s": 0.03,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 100
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-23",
+    "size": {
+      "N": 23
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 47.0,
+      "sense": "min"
+    },
+    "merit_factor": 5.63,
+    "reference": null,
+    "wall_time_s": 0.11,
+    "cpu_time_s": 0.11,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 100
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-24",
+    "size": {
+      "N": 24
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 36.0,
+      "sense": "min"
+    },
+    "merit_factor": 8.0,
+    "reference": null,
+    "wall_time_s": 0.26,
+    "cpu_time_s": 0.26,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 100
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-25",
+    "size": {
+      "N": 25
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 36.0,
+      "sense": "min"
+    },
+    "merit_factor": 8.68,
+    "reference": null,
+    "wall_time_s": 2.64,
+    "cpu_time_s": 2.64,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 100
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-26",
+    "size": {
+      "N": 26
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 45.0,
+      "sense": "min"
+    },
+    "merit_factor": 7.51,
+    "reference": null,
+    "wall_time_s": 0.28,
+    "cpu_time_s": 0.28,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 100
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-27",
+    "size": {
+      "N": 27
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 37.0,
+      "sense": "min"
+    },
+    "merit_factor": 9.85,
+    "reference": null,
+    "wall_time_s": 30.82,
+    "cpu_time_s": 30.82,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 100
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-28",
+    "size": {
+      "N": 28
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 50.0,
+      "sense": "min"
+    },
+    "merit_factor": 7.84,
+    "reference": null,
+    "wall_time_s": 2.88,
+    "cpu_time_s": 2.88,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 100
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-29",
+    "size": {
+      "N": 29
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 62.0,
+      "sense": "min"
+    },
+    "merit_factor": 6.78,
+    "reference": null,
+    "wall_time_s": 3.03,
+    "cpu_time_s": 3.03,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 100
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-30",
+    "size": {
+      "N": 30
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 59.0,
+      "sense": "min"
+    },
+    "merit_factor": 7.63,
+    "reference": null,
+    "wall_time_s": 3.18,
+    "cpu_time_s": 3.18,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 100
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-31",
+    "size": {
+      "N": 31
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 67.0,
+      "sense": "min"
+    },
+    "merit_factor": 7.17,
+    "reference": null,
+    "wall_time_s": 10.02,
+    "cpu_time_s": 10.02,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 100
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-32",
+    "size": {
+      "N": 32
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 64.0,
+      "sense": "min"
+    },
+    "merit_factor": 8.0,
+    "reference": null,
+    "wall_time_s": 3.45,
+    "cpu_time_s": 3.45,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 100
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-33",
+    "size": {
+      "N": 33
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 64.0,
+      "sense": "min"
+    },
+    "merit_factor": 8.51,
+    "reference": null,
+    "wall_time_s": 10.04,
+    "cpu_time_s": 10.04,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 100
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-34",
+    "size": {
+      "N": 34
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 65.0,
+      "sense": "min"
+    },
+    "merit_factor": 8.89,
+    "reference": null,
+    "wall_time_s": 10.02,
+    "cpu_time_s": 10.02,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 100
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-35",
+    "size": {
+      "N": 35
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 73.0,
+      "sense": "min"
+    },
+    "merit_factor": 8.39,
+    "reference": null,
+    "wall_time_s": 1.01,
+    "cpu_time_s": 1.01,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 100
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-36",
+    "size": {
+      "N": 36
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 82.0,
+      "sense": "min"
+    },
+    "merit_factor": 7.9,
+    "reference": null,
+    "wall_time_s": 100.03,
+    "cpu_time_s": 100.03,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 100
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-37",
+    "size": {
+      "N": 37
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 86.0,
+      "sense": "min"
+    },
+    "merit_factor": 7.96,
+    "reference": null,
+    "wall_time_s": 10.02,
+    "cpu_time_s": 10.02,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 100
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-38",
+    "size": {
+      "N": 38
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 87.0,
+      "sense": "min"
+    },
+    "merit_factor": 8.3,
+    "reference": null,
+    "wall_time_s": 44.57,
+    "cpu_time_s": 44.57,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 100
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-39",
+    "size": {
+      "N": 39
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 99.0,
+      "sense": "min"
+    },
+    "merit_factor": 7.68,
+    "reference": null,
+    "wall_time_s": 250.01,
+    "cpu_time_s": 250.01,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 25
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-40",
+    "size": {
+      "N": 40
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 108.0,
+      "sense": "min"
+    },
+    "merit_factor": 7.41,
+    "reference": null,
+    "wall_time_s": 114.39,
+    "cpu_time_s": 114.39,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 25
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-41",
+    "size": {
+      "N": 41
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 108.0,
+      "sense": "min"
+    },
+    "merit_factor": 7.78,
+    "reference": null,
+    "wall_time_s": 395.0,
+    "cpu_time_s": 23026.8,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-42",
+    "size": {
+      "N": 42
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 101.0,
+      "sense": "min"
+    },
+    "merit_factor": 8.73,
+    "reference": null,
+    "wall_time_s": 456.79,
+    "cpu_time_s": 456.79,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 10
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-43",
+    "size": {
+      "N": 43
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 109.0,
+      "sense": "min"
+    },
+    "merit_factor": 8.48,
+    "reference": null,
+    "wall_time_s": 481.68,
+    "cpu_time_s": 481.68,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 10
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-44",
+    "size": {
+      "N": 44
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 122.0,
+      "sense": "min"
+    },
+    "merit_factor": 7.93,
+    "reference": null,
+    "wall_time_s": 1000.0,
+    "cpu_time_s": 1000.0,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 10
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-45",
+    "size": {
+      "N": 45
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 118.0,
+      "sense": "min"
+    },
+    "merit_factor": 8.58,
+    "reference": null,
+    "wall_time_s": 2401.03,
+    "cpu_time_s": 2401.03,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 25
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-46",
+    "size": {
+      "N": 46
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 131.0,
+      "sense": "min"
+    },
+    "merit_factor": 8.08,
+    "reference": null,
+    "wall_time_s": 4.84,
+    "cpu_time_s": 4.84,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 100
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-47",
+    "size": {
+      "N": 47
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 135.0,
+      "sense": "min"
+    },
+    "merit_factor": 8.18,
+    "reference": null,
+    "wall_time_s": 1000.0,
+    "cpu_time_s": 1000.0,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 10
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-48",
+    "size": {
+      "N": 48
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 140.0,
+      "sense": "min"
+    },
+    "merit_factor": 8.23,
+    "reference": null,
+    "wall_time_s": 2479.16,
+    "cpu_time_s": 2479.16,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 25
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-49",
+    "size": {
+      "N": 49
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 136.0,
+      "sense": "min"
+    },
+    "merit_factor": 8.83,
+    "reference": null,
+    "wall_time_s": 449.0,
+    "cpu_time_s": 26432.4,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-50",
+    "size": {
+      "N": 50
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 153.0,
+      "sense": "min"
+    },
+    "merit_factor": 8.17,
+    "reference": null,
+    "wall_time_s": 1000.01,
+    "cpu_time_s": 1000.01,
+    "hardware": "AMD EPYC-Rome, 1 core",
+    "solver": "Quicopt v0.2",
+    "n_runs": 10
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-51",
+    "size": {
+      "N": 51
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 153.0,
+      "sense": "min"
+    },
+    "merit_factor": 8.5,
+    "reference": null,
+    "wall_time_s": 462.0,
+    "cpu_time_s": 27266.4,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-52",
+    "size": {
+      "N": 52
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 166.0,
+      "sense": "min"
+    },
+    "merit_factor": 8.14,
+    "reference": null,
+    "wall_time_s": 464.0,
+    "cpu_time_s": 27404.4,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-53",
+    "size": {
+      "N": 53
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 170.0,
+      "sense": "min"
+    },
+    "merit_factor": 8.26,
+    "reference": null,
+    "wall_time_s": 541.0,
+    "cpu_time_s": 27632.4,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-54",
+    "size": {
+      "N": 54
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 175.0,
+      "sense": "min"
+    },
+    "merit_factor": 8.33,
+    "reference": null,
+    "wall_time_s": 572.0,
+    "cpu_time_s": 29394.0,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-55",
+    "size": {
+      "N": 55
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 171.0,
+      "sense": "min"
+    },
+    "merit_factor": 8.85,
+    "reference": null,
+    "wall_time_s": 553.0,
+    "cpu_time_s": 28100.4,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-56",
+    "size": {
+      "N": 56
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 192.0,
+      "sense": "min"
+    },
+    "merit_factor": 8.17,
+    "reference": null,
+    "wall_time_s": 570.0,
+    "cpu_time_s": 28976.4,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-57",
+    "size": {
+      "N": 57
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 188.0,
+      "sense": "min"
+    },
+    "merit_factor": 8.64,
+    "reference": null,
+    "wall_time_s": 580.0,
+    "cpu_time_s": 29381.6,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-58",
+    "size": {
+      "N": 58
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 197.0,
+      "sense": "min"
+    },
+    "merit_factor": 8.54,
+    "reference": null,
+    "wall_time_s": 598.0,
+    "cpu_time_s": 30496.4,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-59",
+    "size": {
+      "N": 59
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 205.0,
+      "sense": "min"
+    },
+    "merit_factor": 8.49,
+    "reference": null,
+    "wall_time_s": 603.0,
+    "cpu_time_s": 31013.2,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-60",
+    "size": {
+      "N": 60
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 218.0,
+      "sense": "min"
+    },
+    "merit_factor": 8.26,
+    "reference": null,
+    "wall_time_s": 686.0,
+    "cpu_time_s": 35436.0,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-61",
+    "size": {
+      "N": 61
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 226.0,
+      "sense": "min"
+    },
+    "merit_factor": 8.23,
+    "reference": null,
+    "wall_time_s": 607.0,
+    "cpu_time_s": 31274.8,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-62",
+    "size": {
+      "N": 62
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 235.0,
+      "sense": "min"
+    },
+    "merit_factor": 8.18,
+    "reference": null,
+    "wall_time_s": 627.0,
+    "cpu_time_s": 32291.2,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-63",
+    "size": {
+      "N": 63
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 207.0,
+      "sense": "min"
+    },
+    "merit_factor": 9.59,
+    "reference": null,
+    "wall_time_s": 637.0,
+    "cpu_time_s": 32833.6,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-64",
+    "size": {
+      "N": 64
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 208.0,
+      "sense": "min"
+    },
+    "merit_factor": 9.85,
+    "reference": null,
+    "wall_time_s": 649.0,
+    "cpu_time_s": 33500.0,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-65",
+    "size": {
+      "N": 65
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 240.0,
+      "sense": "min"
+    },
+    "merit_factor": 8.8,
+    "reference": null,
+    "wall_time_s": 665.0,
+    "cpu_time_s": 34506.4,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-66",
+    "size": {
+      "N": 66
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 257.0,
+      "sense": "min"
+    },
+    "merit_factor": 8.47,
+    "reference": null,
+    "wall_time_s": 1830.0,
+    "cpu_time_s": 102582.2,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 25
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-67",
+    "size": {
+      "N": 67
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 273.0,
+      "sense": "min"
+    },
+    "merit_factor": 8.22,
+    "reference": null,
+    "wall_time_s": 669.0,
+    "cpu_time_s": 34622.8,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-68",
+    "size": {
+      "N": 68
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 250.0,
+      "sense": "min"
+    },
+    "merit_factor": 9.25,
+    "reference": null,
+    "wall_time_s": 687.0,
+    "cpu_time_s": 35621.2,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-69",
+    "size": {
+      "N": 69
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 274.0,
+      "sense": "min"
+    },
+    "merit_factor": 8.69,
+    "reference": null,
+    "wall_time_s": 756.0,
+    "cpu_time_s": 39257.6,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-70",
+    "size": {
+      "N": 70
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 295.0,
+      "sense": "min"
+    },
+    "merit_factor": 8.31,
+    "reference": null,
+    "wall_time_s": 759.0,
+    "cpu_time_s": 39651.6,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-71",
+    "size": {
+      "N": 71
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 327.0,
+      "sense": "min"
+    },
+    "merit_factor": 7.71,
+    "reference": null,
+    "wall_time_s": 713.0,
+    "cpu_time_s": 37027.2,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-72",
+    "size": {
+      "N": 72
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 300.0,
+      "sense": "min"
+    },
+    "merit_factor": 8.64,
+    "reference": null,
+    "wall_time_s": 2776.0,
+    "cpu_time_s": 158094.0,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 45
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-73",
+    "size": {
+      "N": 73
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 316.0,
+      "sense": "min"
+    },
+    "merit_factor": 8.43,
+    "reference": null,
+    "wall_time_s": 3018.0,
+    "cpu_time_s": 170589.8,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 45
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-74",
+    "size": {
+      "N": 74
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 349.0,
+      "sense": "min"
+    },
+    "merit_factor": 7.85,
+    "reference": null,
+    "wall_time_s": 3045.0,
+    "cpu_time_s": 171502.2,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 45
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-75",
+    "size": {
+      "N": 75
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 341.0,
+      "sense": "min"
+    },
+    "merit_factor": 8.25,
+    "reference": null,
+    "wall_time_s": 3235.0,
+    "cpu_time_s": 185039.8,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 45
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-76",
+    "size": {
+      "N": 76
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 362.0,
+      "sense": "min"
+    },
+    "merit_factor": 7.98,
+    "reference": null,
+    "wall_time_s": 833.0,
+    "cpu_time_s": 43753.6,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-77",
+    "size": {
+      "N": 77
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 394.0,
+      "sense": "min"
+    },
+    "merit_factor": 7.52,
+    "reference": null,
+    "wall_time_s": 813.0,
+    "cpu_time_s": 42668.8,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-78",
+    "size": {
+      "N": 78
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 411.0,
+      "sense": "min"
+    },
+    "merit_factor": 7.4,
+    "reference": null,
+    "wall_time_s": 831.0,
+    "cpu_time_s": 43693.2,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-79",
+    "size": {
+      "N": 79
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 407.0,
+      "sense": "min"
+    },
+    "merit_factor": 7.67,
+    "reference": null,
+    "wall_time_s": 845.0,
+    "cpu_time_s": 44478.4,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-80",
+    "size": {
+      "N": 80
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 384.0,
+      "sense": "min"
+    },
+    "merit_factor": 8.33,
+    "reference": null,
+    "wall_time_s": 864.0,
+    "cpu_time_s": 45572.8,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-81",
+    "size": {
+      "N": 81
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 408.0,
+      "sense": "min"
+    },
+    "merit_factor": 8.04,
+    "reference": null,
+    "wall_time_s": 887.0,
+    "cpu_time_s": 46800.0,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-82",
+    "size": {
+      "N": 82
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 457.0,
+      "sense": "min"
+    },
+    "merit_factor": 7.36,
+    "reference": null,
+    "wall_time_s": 908.0,
+    "cpu_time_s": 48020.0,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-83",
+    "size": {
+      "N": 83
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 437.0,
+      "sense": "min"
+    },
+    "merit_factor": 7.88,
+    "reference": null,
+    "wall_time_s": 891.0,
+    "cpu_time_s": 47048.4,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-84",
+    "size": {
+      "N": 84
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 466.0,
+      "sense": "min"
+    },
+    "merit_factor": 7.57,
+    "reference": null,
+    "wall_time_s": 908.0,
+    "cpu_time_s": 47973.6,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-85",
+    "size": {
+      "N": 85
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 482.0,
+      "sense": "min"
+    },
+    "merit_factor": 7.49,
+    "reference": null,
+    "wall_time_s": 917.0,
+    "cpu_time_s": 48404.0,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-86",
+    "size": {
+      "N": 86
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 471.0,
+      "sense": "min"
+    },
+    "merit_factor": 7.85,
+    "reference": null,
+    "wall_time_s": 921.0,
+    "cpu_time_s": 48766.0,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-87",
+    "size": {
+      "N": 87
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 491.0,
+      "sense": "min"
+    },
+    "merit_factor": 7.71,
+    "reference": null,
+    "wall_time_s": 945.0,
+    "cpu_time_s": 49969.2,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-88",
+    "size": {
+      "N": 88
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 528.0,
+      "sense": "min"
+    },
+    "merit_factor": 7.33,
+    "reference": null,
+    "wall_time_s": 991.0,
+    "cpu_time_s": 52353.6,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-89",
+    "size": {
+      "N": 89
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 516.0,
+      "sense": "min"
+    },
+    "merit_factor": 7.68,
+    "reference": null,
+    "wall_time_s": 1018.0,
+    "cpu_time_s": 53571.2,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-90",
+    "size": {
+      "N": 90
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 565.0,
+      "sense": "min"
+    },
+    "merit_factor": 7.17,
+    "reference": null,
+    "wall_time_s": 1051.0,
+    "cpu_time_s": 56113.2,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-91",
+    "size": {
+      "N": 91
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 589.0,
+      "sense": "min"
+    },
+    "merit_factor": 7.03,
+    "reference": null,
+    "wall_time_s": 1027.0,
+    "cpu_time_s": 54674.0,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-92",
+    "size": {
+      "N": 92
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 578.0,
+      "sense": "min"
+    },
+    "merit_factor": 7.32,
+    "reference": null,
+    "wall_time_s": 1056.0,
+    "cpu_time_s": 56435.2,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-93",
+    "size": {
+      "N": 93
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 618.0,
+      "sense": "min"
+    },
+    "merit_factor": 7.0,
+    "reference": null,
+    "wall_time_s": 1070.0,
+    "cpu_time_s": 57152.4,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-94",
+    "size": {
+      "N": 94
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 635.0,
+      "sense": "min"
+    },
+    "merit_factor": 6.96,
+    "reference": null,
+    "wall_time_s": 1089.0,
+    "cpu_time_s": 58294.0,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-95",
+    "size": {
+      "N": 95
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 659.0,
+      "sense": "min"
+    },
+    "merit_factor": 6.85,
+    "reference": null,
+    "wall_time_s": 1148.0,
+    "cpu_time_s": 61544.4,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-96",
+    "size": {
+      "N": 96
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 628.0,
+      "sense": "min"
+    },
+    "merit_factor": 7.34,
+    "reference": null,
+    "wall_time_s": 1175.0,
+    "cpu_time_s": 63184.8,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-97",
+    "size": {
+      "N": 97
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 636.0,
+      "sense": "min"
+    },
+    "merit_factor": 7.4,
+    "reference": null,
+    "wall_time_s": 5611.0,
+    "cpu_time_s": 325050.2,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 45
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-98",
+    "size": {
+      "N": 98
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 601.0,
+      "sense": "min"
+    },
+    "merit_factor": 7.99,
+    "reference": null,
+    "wall_time_s": 1174.0,
+    "cpu_time_s": 62954.4,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-99",
+    "size": {
+      "N": 99
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 725.0,
+      "sense": "min"
+    },
+    "merit_factor": 6.76,
+    "reference": null,
+    "wall_time_s": 1210.0,
+    "cpu_time_s": 64894.4,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 5
+  },
+  {
+    "problem_type": "labs-v0.2",
+    "instance": "LABS-100",
+    "size": {
+      "N": 100
+    },
+    "objective": {
+      "name": "sidelobe_energy",
+      "value": 630.0,
+      "sense": "min"
+    },
+    "merit_factor": 7.94,
+    "reference": null,
+    "wall_time_s": 6850.0,
+    "cpu_time_s": 404860.8,
+    "hardware": "AMD EPYC-Rome, 60 cores",
+    "solver": "Quicopt v0.2",
+    "n_runs": 50
   }
 ]

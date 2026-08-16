@@ -12,6 +12,7 @@ results, not a solver.
 """
 from __future__ import annotations
 import argparse
+import collections
 import csv
 import json
 from pathlib import Path
@@ -73,6 +74,10 @@ def families():
     return out
 
 
+FOOTER = ("---\n\n<sub>Generated from [`../data/`](../data/) by [`../render.py`](../render.py). "
+          "Reference values are third-party attributions, not Quicopt output.</sub>\n")
+
+
 def page_text(ptype, m, header, rows):
     parts = [f"# {m.get('title', ptype)}\n"]
     if m.get("blurb"):
@@ -81,13 +86,54 @@ def page_text(ptype, m, header, rows):
     if s:
         parts.append(s + "\n")
     parts.append(md_table(header, rows) + "\n")
-    parts.append("---\n\n<sub>Generated from [`../data/`](../data/) by [`../render.py`](../render.py). "
-                 "Reference values are third-party attributions, not Quicopt output.</sub>\n")
+    parts.append(FOOTER)
     return "\n".join(parts)
 
 
-# MIS is published as two back-end tables (GPU vs CPU) on one page; see mis_combined_page().
-MIS_TYPES = ("mis-gpu", "mis-cpu")
+def page_groups(fams):
+    """Families keyed by the page they render onto, each ordered primary-first.
+
+    A family whose meta carries `page` shares that page with its siblings — two solver
+    versions of one problem (LABS), or one run reported on two back-ends (MIS). `order`
+    fixes which member leads: it supplies the page title, blurb and landing-summary row.
+
+    Args:
+        fams: (ptype, meta, header, rows) per data/<type>.csv.
+
+    Returns:
+        dict[str, list]: page name -> its families, lowest `order` first.
+    """
+    groups = collections.OrderedDict()
+    for fam in fams:
+        groups.setdefault(fam[1].get("page", fam[0]), []).append(fam)
+    for members in groups.values():
+        members.sort(key=lambda f: f[1].get("order", 0))
+    return groups
+
+
+def stacked_page(members):
+    """A page carrying one table per family under its own `section` heading.
+
+    Args:
+        members: the page's families, primary first.
+
+    Returns:
+        str: the page text.
+    """
+    _, lead, header, rows = members[0]
+    parts = [f"# {lead.get('title', '')}\n"]
+    if lead.get("blurb"):
+        parts.append(lead["blurb"] + "\n")
+    s = page_summary(header, rows, lead)
+    if s:
+        parts.append(s + "\n")
+    for _, m, h, r in members:
+        parts.append(f"### {m.get('section', '')}\n")
+        if m.get("section_blurb"):
+            parts.append(m["section_blurb"] + "\n")
+        parts.append(md_table(h, r) + "\n")
+    parts.append(FOOTER)
+    return "\n".join(parts)
 
 
 def _obj_label(m):
@@ -95,18 +141,13 @@ def _obj_label(m):
     return f"{obj} ({m['objective_sense']})" if m.get("objective_sense") else obj
 
 
-def landing_body(fams, mis_present, both_mis):
-    """One row per family; if both MIS back-ends are present they collapse into a single row."""
+def landing_body(groups):
+    """One row per page — families sharing a page speak for it through their primary."""
     header = ["problem", "instances", "objective", "Quicopt result"]
     rows = []
-    for ptype, m, h, r in fams:
-        if both_mis and ptype in MIS_TYPES:
-            continue
-        rows.append([f"[{m.get('title', ptype)}](docs/{ptype}.md)", len(r), _obj_label(m),
-                     landing_headline(h, r, m)])
-    if mis_present:
-        m, h, r = mis_present
-        rows.append([f"[Maximum Independent Set](docs/mis.md)", len(r), _obj_label(m),
+    for page, members in groups.items():
+        _, m, h, r = members[0]
+        rows.append([f"[{m.get('title', page)}](docs/{page}.md)", len(r), _obj_label(m),
                      landing_headline(h, r, m)])
     return ("### Results by problem family\n\n"
             + md_table(header, rows)
@@ -155,6 +196,11 @@ def mis_combined_page(gpu, cpu):
     return "\n".join(parts)
 
 
+# Pages whose members need more than a stack of tables. MIS cross-references its two
+# back-ends to bold the faster wall-time, so it keeps a renderer of its own.
+CUSTOM_PAGES = {"mis": lambda members: mis_combined_page(*(f[1:] for f in members))}
+
+
 def splice(readme_text, body):
     if BEGIN not in readme_text or END not in readme_text:
         raise SystemExit(f"README.md must contain the markers {BEGIN} … {END}")
@@ -165,19 +211,16 @@ def splice(readme_text, body):
 
 def build():
     """Return {path: desired_text} for the landing README and every per-problem page."""
-    fams = families()
-    fmap = {ptype: (m, h, r) for ptype, m, h, r in fams}
-    both_mis = "mis-gpu" in fmap and "mis-cpu" in fmap
+    groups = page_groups(families())
     out = {}
-    for ptype, m, h, r in fams:
-        if both_mis and ptype in MIS_TYPES:
-            continue                                   # the pair is rendered as one combined page
-        out[DOCS / f"{ptype}.md"] = page_text(ptype, m, h, r)
-    mis_present = None
-    if both_mis:
-        out[DOCS / "mis.md"] = mis_combined_page(fmap["mis-gpu"], fmap["mis-cpu"])
-        mis_present = fmap["mis-gpu"]
-    out[README] = splice(README.read_text(), landing_body(fams, mis_present, both_mis))
+    for page, members in groups.items():
+        if len(members) == 1:
+            out[DOCS / f"{page}.md"] = page_text(*members[0])
+        elif page in CUSTOM_PAGES:
+            out[DOCS / f"{page}.md"] = CUSTOM_PAGES[page](members)
+        else:
+            out[DOCS / f"{page}.md"] = stacked_page(members)
+    out[README] = splice(README.read_text(), landing_body(groups))
     return out
 
 
