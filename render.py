@@ -120,15 +120,17 @@ def stacked_page(members):
     Returns:
         str: the page text.
     """
-    _, lead, header, rows = members[0]
+    _, lead, _, _ = members[0]
     parts = [f"# {lead.get('title', '')}\n"]
     if lead.get("blurb"):
         parts.append(lead["blurb"] + "\n")
-    s = page_summary(header, rows, lead)
-    if s:
-        parts.append(s + "\n")
+    # Each section carries its own graded summary: the members are different solvers or
+    # back-ends, so one figure at the top of the page would describe only the first of them.
     for _, m, h, r in members:
         parts.append(f"### {m.get('section', '')}\n")
+        s = page_summary(h, r, m)
+        if s:
+            parts.append(s + "\n")
         if m.get("section_blurb"):
             parts.append(m["section_blurb"] + "\n")
         parts.append(md_table(h, r) + "\n")
