@@ -6383,8 +6383,8 @@
       "source": "optimum",
       "pct_of_best": 100.0
     },
-    "wall_time_s": 0.0011,
-    "cpu_time_s": 0.107,
+    "wall_time_s": 0.0024,
+    "cpu_time_s": 0.237,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 100
@@ -6567,8 +6567,8 @@
       "source": "optimum",
       "pct_of_best": 100.0
     },
-    "wall_time_s": 0.1002,
-    "cpu_time_s": 10.02,
+    "wall_time_s": 0.3206,
+    "cpu_time_s": 32.06,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 100
@@ -6613,8 +6613,8 @@
       "source": "optimum",
       "pct_of_best": 100.0
     },
-    "wall_time_s": 0.1004,
-    "cpu_time_s": 10.04,
+    "wall_time_s": 0.3727,
+    "cpu_time_s": 37.27,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 100
@@ -6636,8 +6636,8 @@
       "source": "optimum",
       "pct_of_best": 100.0
     },
-    "wall_time_s": 0.1002,
-    "cpu_time_s": 10.02,
+    "wall_time_s": 0.4089,
+    "cpu_time_s": 40.89,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 100
@@ -6659,8 +6659,8 @@
       "source": "optimum",
       "pct_of_best": 100.0
     },
-    "wall_time_s": 0.0101,
-    "cpu_time_s": 1.01,
+    "wall_time_s": 0.0395,
+    "cpu_time_s": 3.95,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 100
@@ -6682,11 +6682,11 @@
       "source": "optimum",
       "pct_of_best": 100.0
     },
-    "wall_time_s": 1.0,
-    "cpu_time_s": 100.03,
+    "wall_time_s": 1.05,
+    "cpu_time_s": 104.86,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
-    "n_runs": 100
+    "n_runs": 25
   },
   {
     "problem_type": "labs-v0.2",
@@ -6705,8 +6705,8 @@
       "source": "optimum",
       "pct_of_best": 100.0
     },
-    "wall_time_s": 0.1002,
-    "cpu_time_s": 10.02,
+    "wall_time_s": 0.4077,
+    "cpu_time_s": 40.77,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 100
@@ -6751,11 +6751,11 @@
       "source": "optimum",
       "pct_of_best": 100.0
     },
-    "wall_time_s": 2.5,
-    "cpu_time_s": 250.01,
+    "wall_time_s": 4.22,
+    "cpu_time_s": 422.24,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
-    "n_runs": 25
+    "n_runs": 10
   },
   {
     "problem_type": "labs-v0.2",
@@ -6797,8 +6797,8 @@
       "source": "optimum",
       "pct_of_best": 100.0
     },
-    "wall_time_s": 230.27,
-    "cpu_time_s": 23026.8,
+    "wall_time_s": 167.16,
+    "cpu_time_s": 16716.0,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -6866,11 +6866,11 @@
       "source": "optimum",
       "pct_of_best": 100.0
     },
-    "wall_time_s": 10.0,
-    "cpu_time_s": 1000.0,
+    "wall_time_s": 23.44,
+    "cpu_time_s": 2344.34,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
-    "n_runs": 10
+    "n_runs": 25
   },
   {
     "problem_type": "labs-v0.2",
@@ -6935,11 +6935,11 @@
       "source": "optimum",
       "pct_of_best": 100.0
     },
-    "wall_time_s": 10.0,
-    "cpu_time_s": 1000.0,
+    "wall_time_s": 24.46,
+    "cpu_time_s": 2445.54,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
-    "n_runs": 10
+    "n_runs": 25
   },
   {
     "problem_type": "labs-v0.2",
@@ -6981,8 +6981,8 @@
       "source": "optimum",
       "pct_of_best": 100.0
     },
-    "wall_time_s": 264.32,
-    "cpu_time_s": 26432.4,
+    "wall_time_s": 186.78,
+    "cpu_time_s": 18678.0,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -7004,11 +7004,11 @@
       "source": "optimum",
       "pct_of_best": 100.0
     },
-    "wall_time_s": 10.0,
-    "cpu_time_s": 1000.01,
+    "wall_time_s": 26.15,
+    "cpu_time_s": 2615.45,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
-    "n_runs": 10
+    "n_runs": 25
   },
   {
     "problem_type": "labs-v0.2",
@@ -7027,8 +7027,8 @@
       "source": "optimum",
       "pct_of_best": 100.0
     },
-    "wall_time_s": 272.66,
-    "cpu_time_s": 27266.4,
+    "wall_time_s": 194.08,
+    "cpu_time_s": 19407.6,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -7050,8 +7050,8 @@
       "source": "optimum",
       "pct_of_best": 100.0
     },
-    "wall_time_s": 274.04,
-    "cpu_time_s": 27404.4,
+    "wall_time_s": 203.5,
+    "cpu_time_s": 20349.6,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -7073,8 +7073,8 @@
       "source": "optimum",
       "pct_of_best": 100.0
     },
-    "wall_time_s": 276.32,
-    "cpu_time_s": 27632.4,
+    "wall_time_s": 206.0,
+    "cpu_time_s": 20600.4,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -7096,8 +7096,8 @@
       "source": "optimum",
       "pct_of_best": 100.0
     },
-    "wall_time_s": 293.94,
-    "cpu_time_s": 29394.0,
+    "wall_time_s": 216.33,
+    "cpu_time_s": 21632.8,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -7119,11 +7119,11 @@
       "source": "optimum",
       "pct_of_best": 100.0
     },
-    "wall_time_s": 281.0,
-    "cpu_time_s": 28100.4,
+    "wall_time_s": 13.45,
+    "cpu_time_s": 1345.47,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
-    "n_runs": 5
+    "n_runs": 8
   },
   {
     "problem_type": "labs-v0.2",
@@ -7142,8 +7142,8 @@
       "source": "optimum",
       "pct_of_best": 100.0
     },
-    "wall_time_s": 289.76,
-    "cpu_time_s": 28976.4,
+    "wall_time_s": 208.15,
+    "cpu_time_s": 20815.2,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -7165,8 +7165,8 @@
       "source": "optimum",
       "pct_of_best": 100.0
     },
-    "wall_time_s": 293.82,
-    "cpu_time_s": 29381.6,
+    "wall_time_s": 217.98,
+    "cpu_time_s": 21797.6,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -7188,8 +7188,8 @@
       "source": "optimum",
       "pct_of_best": 100.0
     },
-    "wall_time_s": 304.96,
-    "cpu_time_s": 30496.4,
+    "wall_time_s": 229.93,
+    "cpu_time_s": 22993.2,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -7211,8 +7211,8 @@
       "source": "optimum",
       "pct_of_best": 100.0
     },
-    "wall_time_s": 310.13,
-    "cpu_time_s": 31013.2,
+    "wall_time_s": 242.4,
+    "cpu_time_s": 24239.6,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -7234,8 +7234,8 @@
       "source": "optimum",
       "pct_of_best": 100.0
     },
-    "wall_time_s": 354.36,
-    "cpu_time_s": 35436.0,
+    "wall_time_s": 255.18,
+    "cpu_time_s": 25518.0,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -7257,8 +7257,8 @@
       "source": "optimum",
       "pct_of_best": 100.0
     },
-    "wall_time_s": 312.75,
-    "cpu_time_s": 31274.8,
+    "wall_time_s": 235.71,
+    "cpu_time_s": 23570.8,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -7280,8 +7280,8 @@
       "source": "optimum",
       "pct_of_best": 100.0
     },
-    "wall_time_s": 322.91,
-    "cpu_time_s": 32291.2,
+    "wall_time_s": 242.04,
+    "cpu_time_s": 24204.0,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -7303,8 +7303,8 @@
       "source": "optimum",
       "pct_of_best": 100.0
     },
-    "wall_time_s": 328.34,
-    "cpu_time_s": 32833.6,
+    "wall_time_s": 254.38,
+    "cpu_time_s": 25438.4,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -7326,8 +7326,8 @@
       "source": "optimum",
       "pct_of_best": 100.0
     },
-    "wall_time_s": 335.0,
-    "cpu_time_s": 33500.0,
+    "wall_time_s": 260.99,
+    "cpu_time_s": 26099.2,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -7349,8 +7349,8 @@
       "source": "optimum",
       "pct_of_best": 100.0
     },
-    "wall_time_s": 345.06,
-    "cpu_time_s": 34506.4,
+    "wall_time_s": 264.04,
+    "cpu_time_s": 26404.4,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -7372,11 +7372,11 @@
       "source": "optimum",
       "pct_of_best": 100.0
     },
-    "wall_time_s": 1025.82,
-    "cpu_time_s": 102582.2,
+    "wall_time_s": 598.9,
+    "cpu_time_s": 59890.2,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
-    "n_runs": 25
+    "n_runs": 20
   },
   {
     "problem_type": "labs-v0.2",
@@ -7395,8 +7395,8 @@
       "source": "Knauer 2004",
       "pct_of_best": 88.28
     },
-    "wall_time_s": 346.23,
-    "cpu_time_s": 34622.8,
+    "wall_time_s": 265.52,
+    "cpu_time_s": 26551.6,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -7418,8 +7418,8 @@
       "source": "Knauer 2004",
       "pct_of_best": 100.0
     },
-    "wall_time_s": 356.21,
-    "cpu_time_s": 35621.2,
+    "wall_time_s": 272.53,
+    "cpu_time_s": 27253.2,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -7441,8 +7441,8 @@
       "source": "Knauer 2004",
       "pct_of_best": 100.0
     },
-    "wall_time_s": 392.58,
-    "cpu_time_s": 39257.6,
+    "wall_time_s": 287.08,
+    "cpu_time_s": 28708.0,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -7464,8 +7464,8 @@
       "source": "Knauer 2004",
       "pct_of_best": 100.0
     },
-    "wall_time_s": 396.52,
-    "cpu_time_s": 39651.6,
+    "wall_time_s": 310.68,
+    "cpu_time_s": 31067.6,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -7487,8 +7487,8 @@
       "source": "Knauer 2004",
       "pct_of_best": 84.1
     },
-    "wall_time_s": 370.27,
-    "cpu_time_s": 37027.2,
+    "wall_time_s": 299.45,
+    "cpu_time_s": 29945.2,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -7510,11 +7510,11 @@
       "source": "Knauer 2004",
       "pct_of_best": 100.0
     },
-    "wall_time_s": 1580.94,
-    "cpu_time_s": 158094.0,
+    "wall_time_s": 1114.34,
+    "cpu_time_s": 111433.8,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
-    "n_runs": 45
+    "n_runs": 40
   },
   {
     "problem_type": "labs-v0.2",
@@ -7533,11 +7533,11 @@
       "source": "Knauer 2004",
       "pct_of_best": 97.47
     },
-    "wall_time_s": 1705.9,
-    "cpu_time_s": 170589.8,
+    "wall_time_s": 1228.79,
+    "cpu_time_s": 122879.4,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
-    "n_runs": 45
+    "n_runs": 40
   },
   {
     "problem_type": "labs-v0.2",
@@ -7556,11 +7556,11 @@
       "source": "Knauer 2004",
       "pct_of_best": 97.71
     },
-    "wall_time_s": 1715.02,
-    "cpu_time_s": 171502.2,
+    "wall_time_s": 321.43,
+    "cpu_time_s": 32143.2,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
-    "n_runs": 45
+    "n_runs": 5
   },
   {
     "problem_type": "labs-v0.2",
@@ -7579,11 +7579,11 @@
       "source": "Knauer 2004",
       "pct_of_best": 96.48
     },
-    "wall_time_s": 1850.4,
-    "cpu_time_s": 185039.8,
+    "wall_time_s": 329.2,
+    "cpu_time_s": 32920.0,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
-    "n_runs": 45
+    "n_runs": 5
   },
   {
     "problem_type": "labs-v0.2",
@@ -7602,8 +7602,8 @@
       "source": "Knauer 2004",
       "pct_of_best": 92.27
     },
-    "wall_time_s": 437.54,
-    "cpu_time_s": 43753.6,
+    "wall_time_s": 353.2,
+    "cpu_time_s": 35319.6,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -7625,8 +7625,8 @@
       "source": "Knauer 2004",
       "pct_of_best": 90.86
     },
-    "wall_time_s": 426.69,
-    "cpu_time_s": 42668.8,
+    "wall_time_s": 354.04,
+    "cpu_time_s": 35404.0,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -7648,8 +7648,8 @@
       "source": "Knauer 2004",
       "pct_of_best": 84.43
     },
-    "wall_time_s": 436.93,
-    "cpu_time_s": 43693.2,
+    "wall_time_s": 342.41,
+    "cpu_time_s": 34241.2,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -7671,8 +7671,8 @@
       "source": "Knauer 2004",
       "pct_of_best": 83.29
     },
-    "wall_time_s": 444.78,
-    "cpu_time_s": 44478.4,
+    "wall_time_s": 353.52,
+    "cpu_time_s": 35352.4,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -7694,8 +7694,8 @@
       "source": "Knauer 2004",
       "pct_of_best": 91.67
     },
-    "wall_time_s": 455.73,
-    "cpu_time_s": 45572.8,
+    "wall_time_s": 373.16,
+    "cpu_time_s": 37316.4,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -7717,8 +7717,8 @@
       "source": "Knauer 2004",
       "pct_of_best": 91.18
     },
-    "wall_time_s": 468.0,
-    "cpu_time_s": 46800.0,
+    "wall_time_s": 373.8,
+    "cpu_time_s": 37379.6,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -7740,8 +7740,8 @@
       "source": "Knauer 2004",
       "pct_of_best": 82.49
     },
-    "wall_time_s": 480.2,
-    "cpu_time_s": 48020.0,
+    "wall_time_s": 392.44,
+    "cpu_time_s": 39243.6,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -7763,8 +7763,8 @@
       "source": "Knauer 2004",
       "pct_of_best": 86.27
     },
-    "wall_time_s": 470.48,
-    "cpu_time_s": 47048.4,
+    "wall_time_s": 374.14,
+    "cpu_time_s": 37414.0,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -7786,8 +7786,8 @@
       "source": "Knauer 2004",
       "pct_of_best": 92.27
     },
-    "wall_time_s": 479.74,
-    "cpu_time_s": 47973.6,
+    "wall_time_s": 385.43,
+    "cpu_time_s": 38542.8,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -7809,8 +7809,8 @@
       "source": "Knauer 2004",
       "pct_of_best": 85.89
     },
-    "wall_time_s": 484.04,
-    "cpu_time_s": 48404.0,
+    "wall_time_s": 399.36,
+    "cpu_time_s": 39935.6,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -7832,8 +7832,8 @@
       "source": "Knauer 2004",
       "pct_of_best": 93.21
     },
-    "wall_time_s": 487.66,
-    "cpu_time_s": 48766.0,
+    "wall_time_s": 389.96,
+    "cpu_time_s": 38996.4,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -7855,8 +7855,8 @@
       "source": "Knauer 2004",
       "pct_of_best": 87.78
     },
-    "wall_time_s": 499.69,
-    "cpu_time_s": 49969.2,
+    "wall_time_s": 400.88,
+    "cpu_time_s": 40088.4,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -7878,8 +7878,8 @@
       "source": "Knauer 2004",
       "pct_of_best": 84.85
     },
-    "wall_time_s": 523.54,
-    "cpu_time_s": 52353.6,
+    "wall_time_s": 417.25,
+    "cpu_time_s": 41724.8,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -7901,8 +7901,8 @@
       "source": "Knauer 2004",
       "pct_of_best": 83.72
     },
-    "wall_time_s": 535.71,
-    "cpu_time_s": 53571.2,
+    "wall_time_s": 435.24,
+    "cpu_time_s": 43524.4,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -7924,8 +7924,8 @@
       "source": "Knauer 2004",
       "pct_of_best": 80.18
     },
-    "wall_time_s": 561.13,
-    "cpu_time_s": 56113.2,
+    "wall_time_s": 453.14,
+    "cpu_time_s": 45314.4,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -7947,8 +7947,8 @@
       "source": "Knauer 2004",
       "pct_of_best": 80.98
     },
-    "wall_time_s": 546.74,
-    "cpu_time_s": 54674.0,
+    "wall_time_s": 441.61,
+    "cpu_time_s": 44161.2,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -7970,8 +7970,8 @@
       "source": "JPMorgan 2025",
       "pct_of_best": 84.78
     },
-    "wall_time_s": 564.35,
-    "cpu_time_s": 56435.2,
+    "wall_time_s": 457.97,
+    "cpu_time_s": 45797.2,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -7993,8 +7993,8 @@
       "source": "Knauer 2004",
       "pct_of_best": 78.64
     },
-    "wall_time_s": 571.52,
-    "cpu_time_s": 57152.4,
+    "wall_time_s": 474.31,
+    "cpu_time_s": 47431.2,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -8016,8 +8016,8 @@
       "source": "Knauer 2004",
       "pct_of_best": 78.58
     },
-    "wall_time_s": 582.94,
-    "cpu_time_s": 58294.0,
+    "wall_time_s": 476.52,
+    "cpu_time_s": 47652.0,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -8039,8 +8039,8 @@
       "source": "Knauer 2004",
       "pct_of_best": 72.69
     },
-    "wall_time_s": 615.44,
-    "cpu_time_s": 61544.4,
+    "wall_time_s": 503.12,
+    "cpu_time_s": 50311.6,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -8062,8 +8062,8 @@
       "source": "Knauer 2004",
       "pct_of_best": 82.8
     },
-    "wall_time_s": 631.85,
-    "cpu_time_s": 63184.8,
+    "wall_time_s": 520.29,
+    "cpu_time_s": 52028.8,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -8085,11 +8085,11 @@
       "source": "Knauer 2004",
       "pct_of_best": 84.28
     },
-    "wall_time_s": 3250.5,
-    "cpu_time_s": 325050.2,
+    "wall_time_s": 2496.02,
+    "cpu_time_s": 249602.4,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
-    "n_runs": 45
+    "n_runs": 40
   },
   {
     "problem_type": "labs-v0.2",
@@ -8108,8 +8108,8 @@
       "source": "JPMorgan 2025",
       "pct_of_best": 88.02
     },
-    "wall_time_s": 629.54,
-    "cpu_time_s": 62954.4,
+    "wall_time_s": 516.69,
+    "cpu_time_s": 51668.8,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -8131,8 +8131,8 @@
       "source": "JPMorgan 2025",
       "pct_of_best": 76.28
     },
-    "wall_time_s": 648.94,
-    "cpu_time_s": 64894.4,
+    "wall_time_s": 538.93,
+    "cpu_time_s": 53892.8,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
     "n_runs": 5
@@ -8145,19 +8145,19 @@
     },
     "objective": {
       "name": "sidelobe_energy",
-      "value": 630.0,
+      "value": 666.0,
       "sense": "min"
     },
-    "merit_factor": 7.94,
+    "merit_factor": 7.51,
     "reference": {
       "value": 578.0,
       "source": "Knauer 2004",
-      "pct_of_best": 91.75
+      "pct_of_best": 86.79
     },
-    "wall_time_s": 4048.61,
-    "cpu_time_s": 404860.8,
+    "wall_time_s": 1906.88,
+    "cpu_time_s": 190688.4,
     "hardware": "AMD EPYC-Rome, 100 cores",
     "solver": "Quicopt v0.2",
-    "n_runs": 50
+    "n_runs": 25
   }
 ]
