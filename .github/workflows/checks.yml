@@ -1,0 +1,53 @@
+name: Checks
+
+# Every change to data/ or to a certificate is committed together with the pages that render.py
+# makes from it. These checks confirm that the two agree and that every certificate reaches the
+# value its table claims. They only read the repository; nothing here commits.
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  pages:
+    name: Pages match data/
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: README.md and docs/ are what render.py makes from data/
+        run: python3 render.py --check
+
+  certificates:
+    name: Certificates verify
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install what the notebooks import
+        run: pip install --quiet --disable-pip-version-check numpy pandas nbconvert ipykernel
+      # The Gset and QOBLIB graphs are public benchmark files that the notebooks download on
+      # first use. The cache spares their hosts a download on every run.
+      - uses: actions/cache@v4
+        with:
+          path: |
+            GSET/notebooks/gset_instances
+            MIS/notebooks/mis_instances
+          key: instances-${{ hashFiles('*/solutions/*.json') }}
+          restore-keys: instances-
+      - name: Run every verify_solutions notebook
+        run: |
+          for nb in */notebooks/verify_solutions.ipynb; do
+            echo "::group::$nb"
+            jupyter nbconvert --to notebook --execute --stdout \
+              --ExecutePreprocessor.timeout=900 "$nb" > /dev/null
+            echo "::endgroup::"
+          done

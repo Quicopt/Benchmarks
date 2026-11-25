@@ -1,3 +1,6 @@
 __pycache__/
 *.pyc
 .DS_Store
+# instance files the verify_solutions notebooks download on first use
+GSET/notebooks/gset_instances/
+MIS/notebooks/mis_instances/
