@@ -29,7 +29,8 @@ Full per-instance tables are in [`docs/`](docs/).
 
 ---
 
-<sub>Summary and per-problem pages auto-generated from `data/` by `render.py` (run in CI on every
-data change). Where a family carries reference values, they are sourced per row and drift as new
+<sub>Summary and per-problem pages auto-generated from `data/` by `render.py`; CI checks on every
+change that they match `data/` and that every solution certificate verifies. Where a family
+carries reference values, they are sourced per row and drift as new
 records are published (see that family's `data/<type>.csv`). Reference values are attributions to
 third-party results, not Quicopt output.</sub>
